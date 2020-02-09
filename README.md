@@ -8,7 +8,7 @@ This project provides a sample reference application for implementing Spring Clo
 
 ### The Consumer
 
-This project uses Spring Feign to consume RESTful endpoints.
+This project uses Spring Feign to consume RESTful endpoints.  See the repo for [Producer Contract Testing](https://github.com/jrbrayjr2006/rest-cloud-producer-contract).
 
 ## Testing
 
@@ -98,3 +98,4 @@ public class WorkoutConsumerTest {
 - [How to use JUnit5 and Spring Cloud Contract](http://antkorwin.com/cloud/spring_cloud_contract_junit5.html)
 - [Spring Cloud OpenFeign](https://spring.io/projects/spring-cloud-openfeign)
 - [Intro to Feign](https://www.baeldung.com/intro-to-feign)
+- [Producer Contract Testing code sample repo](https://github.com/jrbrayjr2006/rest-cloud-producer-contract)
