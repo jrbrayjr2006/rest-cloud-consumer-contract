@@ -91,7 +91,7 @@ public class WorkoutConsumerTest {
 ### Noteworthy
 
 - Using the `@EnableFeignClients` annotation of the root application class that also has the `@SpringBootApplication` annotation will result in the tests that use the `@SpringBootTest` annotation not being able to load tbe Spring context.  To get around this, do the following:
-
+    - The workaround is to use Spring RestTemplate for the time being, until this is sorted out.
 
 ## References
 
